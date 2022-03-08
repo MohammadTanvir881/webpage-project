@@ -1,0 +1,85 @@
+* {
+   margin: 0;  
+   padding: 0;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header {
+   background-image: url( background.jpg );
+   background-size: cover;
+   height: 100vh;
+   background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+}
+ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 5px;
+}
+ul li a {
+    text-decoration: none;
+    color: azure;
+    padding: 5px 15px;
+    border: 1px transparent white;
+    transition: 0.6s;
+} 
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.png{
+    color: white;
+    margin-left: 20px;
+    margin-top: 15px;
+    opacity: 0.8;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 5px;
+    font-size: 10px;
+    float: left;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+ul li.active a {
+    background-color: azure;
+    color: black;
+}
+.title h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%,-50%);
+    font-size: 35px;
+}
+.title p {
+    position: absolute;
+    top: 58%;
+    left: 49%;
+    color: white;
+    transform: translate(-50%,-50%);
+}
+.btn {
+    position: absolute;
+    top: 62%;
+    left: 40%;
+   
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    transition: 0.6s;
+
+}
+.btn a:hover {
+    background-color: white;
+    color: black;
+
+}
